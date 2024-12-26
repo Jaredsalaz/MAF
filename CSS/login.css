@@ -22,10 +22,14 @@ body {
     flex-direction: column;
     gap: 10px;
     background-color: white;
-    padding: 2.5em;
+    padding-left: 1.9em;
+    padding-right: 1.9em;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
     border-radius: 25px;
     transition: .4s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.4) 1px 2px 2px;
+    font-size: 1.8em;
 }
 
 .form:hover {
@@ -68,7 +72,8 @@ body {
     padding-right: 1em;
     border-radius: 10px;
     border: none;
-    color: black;
+    color: rgb(255, 255, 255);
+    background-color: #65c4d2; /* Color del botón */
     transition: .4s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
 }
