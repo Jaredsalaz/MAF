@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login MAF</title>
     <link rel="stylesheet" href="../CSS/login.css">
+    <script defer src="../JS/login.js"></script>
 </head>
 <body>
     <div class="container">
         <form class="form">
             <p class="heading">Iniciar sesión</p>
             <input class="input" placeholder="Usuario" type="text">
-            <input class="input" placeholder="Contraseña" type="text"> 
+            <div class="password-container">
+                <input class="input" id="password" placeholder="Contraseña" type="password">
+                <span class="toggle-password" onclick="togglePassword()">
+                    <img id="toggleIcon" src="../images/eye-closed.png" alt="Toggle Password">
+                </span>
+            </div>
             <button class="btn">Iniciar sesión</button>
         </form>
     </div>

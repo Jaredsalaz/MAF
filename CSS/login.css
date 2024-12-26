@@ -21,7 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: white;
+    background: linear-gradient(to top, #c2fcfd, white);
     padding-left: 1.9em;
     padding-right: 1.9em;
     padding-top: 1.2em;
@@ -64,6 +64,24 @@ body {
     box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
 }
 
+.password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.toggle-password img {
+    width: 20px;
+    height: 20px;
+}
+
 .form .btn {
     margin-top: 2em;
     align-self: center;
@@ -73,7 +91,7 @@ body {
     border-radius: 10px;
     border: none;
     color: rgb(255, 255, 255);
-    background-color: #65c4d2; /* Color del botón */
+    background-color: #33c9d7; /* Color del botón */
     transition: .4s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
 }
